@@ -1,0 +1,93 @@
+.hydra-icons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+}.build h1 span {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 43.88px;
+	color: rgba(255, 255, 255, 1);
+}
+.build h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.88px;
+	color: rgba(255, 255, 255, 1);
+	line-height: 10px;
+}
+.build p {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 19.5px;
+	color: rgba(255, 255, 255, 0.582);
+	margin-top: -10px;
+}
+.build {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+.vector15{
+	width: 1510px;
+	margin-top: 70px;
+	position: absolute;
+	z-index: 1;
+}
+.circle_1234-shadow{
+	width: 198px;
+height: 198px;
+background: rgba(13, 13, 13, 0.32);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.circle_1234-shadow-circle{
+	width: 159px;
+height: 159px;
+background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+display: flex;
+align-items: center;justify-content: center;
+border-radius: 50%;
+}
+.circle_1234-shadow-circle h1{
+color: rgba(52, 48, 69, 1);
+font-size: 64px;
+font-weight: 700;
+line-height: 78.02px;
+
+}
+.circle_1234 h2 span{
+font-size: 40px;
+color:rgba(192, 183, 232, 1)
+}
+.circle_1234 h2{
+	gap: 10px;
+	margin-top: 30px;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.26px;
+color: rgba(255, 255, 255, 1);
+display: flex;
+align-items: start;
+margin-right: 20px;
+}
+.circle_1234{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.circles_1234{
+	display: flex;
+	align-items: center;
+	margin-left: 130px;
+	gap: 80px;
+	 margin-top: 80px;
+	 position: absolute;
+	 z-index: 100;
+}

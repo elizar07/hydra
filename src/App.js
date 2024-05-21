@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import CardImg from './components/Card-img'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Icon_text_circle from './components/Icon-text-circle'
+import Introduction_about_why from './components/Introduction_about_why'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Header />
+			<Hero />
+      <Introduction_about_why/>
+			<CardImg/>
+			<Icon_text_circle/>
+			<Footer/>
+		</div>
+	)
 }
 
-export default App;
+export default App
